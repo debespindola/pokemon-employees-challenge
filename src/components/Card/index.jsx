@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Card, Title } from './style';
+import { Card, Title, Qudrado } from './style';
 
 function CardComponent({ title }) {
   return ( 

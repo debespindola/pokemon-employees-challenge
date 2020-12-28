@@ -3,6 +3,8 @@ import styled from 'styled-components';
 const PageWrapper = styled.div`
   width: 100%;
   height: 100%;
+
+  overflow: hidden;
 `;
 
 const List = styled.div`
@@ -14,4 +16,15 @@ const List = styled.div`
   padding: 2rem;
 `;
 
-export { List, PageWrapper }
+const Arrow = styled.button`
+  font-family: monospace; 
+
+  background-color: rgba(0, 0, 0, 0, 0.5);
+  border-radius: 50%;
+  border: none;
+
+  width: 2rem;
+  height: 2rem;
+`;
+
+export { List, PageWrapper, Arrow }
