@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
 
 import Navbar from './components/Navbar';
-import LoggedRoutes from './routes/LoggedRoutes';
+import LoggedRoutes from './routes/index';
 
 function App() {
   return (

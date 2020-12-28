@@ -8,7 +8,6 @@ import Loading from '../../components/Loading';
 import Card from '../../components/Card';
 
 const Pokemon = () => {
-  const [image, setImage] = useState('');
   const [pokemon, setPokemon] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
 
